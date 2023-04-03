@@ -1,0 +1,16 @@
+{
+  "name": "clases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "npx cypress run",
+    "chromium": "npx cypress open --e2e -b chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.3.0"
+  }
+}
