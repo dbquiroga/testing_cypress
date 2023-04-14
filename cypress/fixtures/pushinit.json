@@ -1,5 +1,6 @@
 {
-    "username": "Matias",
+    "invalid_username": "Matias",
+    "valid_username": "Pushingit",
     "password": "123456!",
-    "mensajeError": "Credentials were not found"
+    "mensajeError": "Credentials were not found"       
 }

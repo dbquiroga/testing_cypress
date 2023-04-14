@@ -24,7 +24,7 @@ describe('Actividad complementaria 4', () => {
     })
 
     it('Deberia validar un mensaje de error al colocar un usuario inexistente', () => {
-        cy.get('#user').type(datosFixture.username);
+        cy.get('#user').type(datosFixture.invalid_username);
         cy.get('#pass').type(datosFixture.password); //la contraseña debe ser valida por el sistema
         cy.get('#submitForm').click();
         cy.wait(5000);
