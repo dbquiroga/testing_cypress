@@ -7,11 +7,11 @@ module.exports = defineConfig({
     },
     defaultCommandTimeout: 10000, //10seg
     watchForFileChanges: false,
-    'baseUrl': 'https://pushing-front.vercel.app/',
-    "video": true,
-    "videosFolder": "cypress/videos",
-    "screenshotOnRunFailure": true,
-    "screenshotsFolder": "cypress/screenshots",
+    baseUrl: 'https://pushing-front.vercel.app/',
+    video: true,
+    videosFolder: "cypress/videos",
+    screenshotOnRunFailure: true,
+    screenshotsFolder: "cypress/screenshots",
   },
 });
 
